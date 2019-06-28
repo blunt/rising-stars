@@ -1,0 +1,17 @@
+{
+  "name": "make-a-wish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind:css": "tailwind build css/main.src.css -o css/main.css",
+    "watch": "eleventy --serve",
+    "build": "npm run tailwind:css && npx eleventy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3",
+    "tailwindcss": "^1.0.4"
+  }
+}
