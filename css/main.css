@@ -4722,7 +4722,7 @@ video {
 }
 
 .max-w-6xl{
-  max-width: 72rem;
+  max-width: 78rem;
 }
 
 .max-w-full{
@@ -11279,7 +11279,7 @@ body {
   }
 
   .sm\:max-w-6xl{
-    max-width: 72rem;
+    max-width: 78rem;
   }
 
   .sm\:max-w-full{
@@ -17811,7 +17811,7 @@ body {
   }
 
   .md\:max-w-6xl{
-    max-width: 72rem;
+    max-width: 78rem;
   }
 
   .md\:max-w-full{
@@ -24343,7 +24343,7 @@ body {
   }
 
   .lg\:max-w-6xl{
-    max-width: 72rem;
+    max-width: 78rem;
   }
 
   .lg\:max-w-full{
@@ -30875,7 +30875,7 @@ body {
   }
 
   .xl\:max-w-6xl{
-    max-width: 72rem;
+    max-width: 78rem;
   }
 
   .xl\:max-w-full{
