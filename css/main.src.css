@@ -1,5 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Slab&display=swap');
+
 @tailwind base;
 
 @tailwind components;
 
 @tailwind utilities;
+
+@responsive {
+    .rotate-0 {
+        transform: rotate(0deg);
+        -webkit-backface-visibility: hidden;
+    }
+    .rotate-1 {
+        transform: rotate(3deg);
+        -webkit-backface-visibility: hidden;
+    }
+    .rotate-2 {
+        transform: rotate(6deg);
+        -webkit-backface-visibility: hidden;
+    }
+    .rotate-3 {
+        transform: rotate(9deg);
+        -webkit-backface-visibility: hidden;
+    }
+    .transition-0 {
+        transition: none;
+    }
+    .transition-1 {
+        transition: all .1s ease-in;
+    }
+}
+
+
+/* Global */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.text-indent {
+    text-indent: 2rem;
+}
+
+::selection {
+    color: white;
+    background-color: #0057B8;
+}
+
+.gradient-background {
+    background: linear-gradient(180deg, rgba(0, 6, 46, 0.8) 0%, rgba(0, 74, 122, 0.4) 134.18%);
+}
