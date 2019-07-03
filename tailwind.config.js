@@ -15,6 +15,9 @@ module.exports = {
           '700': '#FCB354',
           '800': '#EA9B35'
         }
+      },
+      maxWidth: {
+        '6xl': '78rem'
       }
     }
   },
