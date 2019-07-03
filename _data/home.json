@@ -1,0 +1,30 @@
+{
+  "header": {
+    "heading": "A Night Under the Stars",
+    "description": "Join us on November X, 2019, at the adjective Venue for the inaugural Night Under the Stars Gala that will bring out the glitz for a sparkly soiree in support of Make-A-Wish Canada. We will brighten the night while making wishes come true for children living with critical illnesses.",
+    "image": "images/image.jpg"
+  },
+  "links": [
+    {
+      "icon": "images/tickets.svg",
+      "title": "Buy Tickets",
+      "description": "Join us for an evening of food, live music, dancing and drinks, all while making dreams come true!",
+      "url_name": "Buy Tickets",
+      "url": "steve.com"
+    },
+    {
+      "icon": "images/sponsor.svg",
+      "title": "Sponsor the Event",
+      "description": "Have a direct and transformative impact on the lives of children and strategically align your company with one of Canada’s most respected and trusted charitable brands.",
+      "url_name": "Sponsor",
+      "url": "steve.com"
+    },
+    {
+      "icon": "images/donate.svg",
+      "title": "Donate",
+      "description": "Consider a monetary to in-kind donation to impact Impact the lives of local children in the Great Toronto Area.",
+      "url_name": "Donate",
+      "url": "steve.com"
+    }
+  ]
+}
