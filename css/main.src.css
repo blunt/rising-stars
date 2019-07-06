@@ -39,6 +39,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+h2 {
+    @apply text-2xl;
+}
+
 .text-indent {
     text-indent: 2rem;
 }

@@ -9,6 +9,7 @@ module.exports = {
     "ico",
     "css",
     "webmanifest",
+    "njk",
   ],
   passthroughFileCopy: true,
 };
