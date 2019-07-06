@@ -7166,6 +7166,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h2 {
+  font-size: 1.5rem;
+}
+
 .text-indent {
   text-indent: 2rem;
 }
