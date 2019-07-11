@@ -8,7 +8,7 @@
     <div class="mobile-menu ml-auto flex lg:flex-row flex-col lg:static fixed z-10 inset-0 lg:bg-transparent bg-white items-center lg:h-auto h-screen">
       <nav class="lg:flex flex-grow justify-center items-center lg:text-left text-center lg:px-0 px-12 lg:pt-0 pt-32 lg:w-auto w-full">
         {%- for item in global.navigation -%}
-        <a class="lg:ml-8 border-b transition-1 border-transparent hover:border-white lg:text-white text-blue-700 lg:inline-block block lg:text-base text-3xl lg:mb-0 mb-12" href="{{ item.url }}">{{ item.name }}</a>
+        <a class="lg:ml-8 border-b transition-1 border-transparent hover:border-white lg:text-white text-black lg:font-normal font-black lg:inline-block block lg:text-base text-3xl lg:mb-0 mb-12" href="{{ item.url }}">{{ item.name }}</a>
         {%- endfor -%}
       </nav>
       <a class="block lg:ml-8 lg:py-2 py-6 px-4 transition-1 bg-blue-700 hover:bg-blue-800 lg:rounded font-black lg:text-base text-xl text-center lg:w-auto w-full" href="{{ global.tickets.url }}" target="_blank" rel="noopener noreferrer">{{ global.tickets.name }}</a>
