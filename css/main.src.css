@@ -88,6 +88,8 @@ body.menu-open {
 
 .content img {
     @apply mb-8;
+    @apply rounded;
+    @apply shadow-lg;
 }
 
 a:hover {
