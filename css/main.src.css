@@ -110,6 +110,11 @@ a:hover {
     background-color: #0057B8;
 }
 
+*:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #FCB354;
+}
+
 .gradient-background {
     background: linear-gradient(180deg, rgba(0, 6, 46, 0.8) 0%, rgba(0, 74, 122, 0.4) 134.18%);
 }
