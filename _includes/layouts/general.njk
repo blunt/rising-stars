@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+---
+
+<svg class="w-full h-auto" width="1440" height="60" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M1440 60H0V15.7263C238.954 26.4889 509.166 -2.15255 835.5 0.130155C1071.65 1.782 1208.74 26.4265 1440 15.5859V60Z" fill="white"/>
+</svg>
+<div class="bg-white text-blue-900 pt-6 pb-12">
+  <div class="max-w-6xl mx-auto lg:px-6 px-4">
+    <div class="flex flex-wrap">
+      <div class="lg:w-2/5 w-full lg:pr-24">
+        <h1 class="text-5xl font-black leading-none mb-2">{{ title }}</h1>
+        <p class="lg:text-2xl mb-8">{{ subtitle }}</p>
+        <p class="lg:text-xl mb-2">{{ event_date }}</p>
+        <a class="lg:text-xl leading-tight underline hover:no-underline" href="{{ location_url }}">{{ location }}</a>
+      </div>
+      <div class="lg:w-3/5 w-full pt-3 content">
+        {{ content | safe }}
+      </div>
+    </div>
+  </div>
+</div>

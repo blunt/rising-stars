@@ -1,23 +1,23 @@
 {
+  "logo": "/images/night-under-the-stars.svg",
   "title": "Night Under the Stars",
   "subtitle": "in support of Make a Wish",
   "email": "",
   "instagram": "https://www.instagram.com/blunt.asfuck/",
   "facebook": "https://www.instagram.com/blunt.asfuck/",
   "email": "risingstars.makeawish@gmail.com",
-  "phone": "999-999-9999",
   "navigation": [
     {
       "name": "Event Details",
       "url": "/details"
     },
     {
-      "name": "Sponsorship Opportunities",
-      "url": "maxim.jpg"
+      "name": "Sponsorship",
+      "url": "/sponsorship"
     },
     {
-      "name": "About Make-a-Wish® Canada",
-      "url": "maxim.jpg"
+      "name": "FAQ",
+      "url": "/faq"
     },
     {
       "name": "Donate",

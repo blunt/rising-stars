@@ -1,36 +1,36 @@
-{% include "head.njk" %}
-  <header class="">
-    {% include "nav.njk" %}
-    <div class="max-w-6xl mx-auto lg:px-6 px-4">
-      <div class="flex flex-wrap flex-row-reverse items-center lg:pt-16 lg:pb-24 pt-10 pb-12">
-        <div class="lg:w-3/5 w-full lg:pl-16 lg:mb-0 mb-10">
-          <img class="border-8 border-white lg:rotate-1" src="{{ home.header.image }}" alt="{{ global.title }}">
-        </div>
-        <div class="lg:w-2/5 w-full lg:pr-8">
-          <h2 class="lg:text-5xl text-3xl leading-tight font-serif font-bold mb-6 lg:mr-16 lg:pr-8">{{ home.header.heading }}</h2>
-          <p class="mb-8 opacity-75">{{ home.header.description }}</p>
-          <a class="inline-block py-2 px-8 bg-yellow-700 transition-1 hover:bg-yellow-800 rounded font-black text-blue-900" href="{{ global.tickets.url }}" target="_blank" rel="noopener noreferrer">{{ global.tickets.name }}</a>
-        </div>
+---
+layout: layouts/base.njk
+---
+<header>
+  <div class="max-w-6xl mx-auto lg:px-6 px-4">
+    <div class="flex flex-wrap flex-row-reverse items-center lg:pt-12 lg:pb-24 pb-12">
+      <div class="lg:w-3/5 w-full lg:pl-16 lg:mb-0 mb-10">
+        <img class="border-8 border-white lg:rotate-1 w-full h-auto" src="{{ home.header.image }}" alt="{{ global.title }}">
+      </div>
+      <div class="lg:w-2/5 w-full lg:pr-8">
+        <h2 class="lg:text-5xl text-3xl leading-tight font-serif font-bold mb-6 lg:mr-16 lg:pr-8">{{ home.header.heading }}</h2>
+        <p class="mb-8 opacity-75">{{ home.header.description }}</p>
+        <a class="inline-block py-2 px-8 bg-yellow-700 transition-1 hover:bg-yellow-800 rounded font-black text-blue-900" href="{{ global.tickets.url }}" target="_blank" rel="noopener noreferrer">{{ global.tickets.name }}</a>
       </div>
     </div>
-    <svg class="w-full h-auto" width="1440" height="60" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M1440 60H0V15.7263C238.954 26.4889 509.166 -2.15255 835.5 0.130155C1071.65 1.782 1208.74 26.4265 1440 15.5859V60Z" fill="white"/>
-    </svg>
-  </header>
-  <section class="bg-white lg:py-24 py-12">
-    <div class="max-w-6xl mx-auto flex flex-wrap text-blue-900 text-center">
-      {%- for item in home.links -%}
-      <div class="lg:w-1/3 w-full lg:px-6 px-4 flex flex-col lg:mb-0 {% if forloop.index != forloop.length %}mb-16{% endif %}">
+  </div>
+  <svg class="w-full h-auto" width="1440" height="60" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1440 60H0V15.7263C238.954 26.4889 509.166 -2.15255 835.5 0.130155C1071.65 1.782 1208.74 26.4265 1440 15.5859V60Z" fill="white"/>
+  </svg>
+</header>
+<section class="bg-white lg:py-24 pt  -12">
+  <div class="max-w-6xl mx-auto flex flex-wrap text-blue-900 text-center">
+    {%- for item in home.links -%}
+      <div class="lg:w-1/3 w-full lg:px-6 px-4 flex flex-col lg:mb-0 mb-16">
         <img class="block lg:mb-12 mb-8" src="{{ item.icon }}" alt="{{ item.title }}">
         <p class="text-2xl text-blue-900 font-bold font-serif mb-4">{{ item.title }}</p>
         <p class="lg:mb-8 mb-6">{{ item.description }}</p>
-        <a class="mx-auto block font-black text-blue-700 mt-auto border-b-2 transition-1 border-transparent hover:border-blue-700" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.url_name }}</a>
+        <a class="mx-auto block font-black text-blue-700 mt-auto border-b-2 transition-1 border-transparent hover:border-blue-700" href="{{ item.url }}">{{ item.url_name }}</a>
       </div>
-      {%- endfor -%}
-    </div>
-  </section>
-  <section class="hidden bg-gray-200 py-24">
-    <div class="max-w-6xl mx-auto lg:px-6 px-4 flex flex-wrap text-blue-900 text-center">
-    </div>
-  </section>
-{% include "footer.njk" %}
+    {%- endfor -%}
+  </div>
+</section>
+<section class="hidden bg-gray-200 py-24">
+  <div class="max-w-6xl mx-auto lg:px-6 px-4 flex flex-wrap text-blue-900 text-center">
+  </div>
+</section>

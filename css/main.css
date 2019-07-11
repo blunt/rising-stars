@@ -7166,8 +7166,69 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h2 {
+body.menu-open {
+  overflow-y: hidden;
+}
+
+.menu-open .mobile-menu {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.mobile-menu {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 1s cubic-bezier(0.19,1,0.22,1);
+  transition: -webkit-transform 1s cubic-bezier(0.19,1,0.22,1);
+  transition: transform 1s cubic-bezier(0.19,1,0.22,1);
+  transition: transform 1s cubic-bezier(0.19,1,0.22,1), -webkit-transform 1s cubic-bezier(0.19,1,0.22,1);
+}
+
+@media (min-width: 1024px) {
+  .mobile-menu {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.content h1, h2, h3, h4 {
   font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.content h1 {
+  font-size: 3rem;
+}
+
+.content h2 {
+  margin-bottom: 1.5rem;
+}
+
+.content h4 {
+  font-size: 1.25rem;
+}
+
+.content p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.content a {
+  text-decoration: underline;
+}
+
+.content img {
+  margin-bottom: 2rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.content hr {
+  height: 1rem;
 }
 
 .text-indent {
