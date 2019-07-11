@@ -21,11 +21,11 @@
     },
     {
       "name": "Donate",
-      "url": "maxim.jpg"
+      "url": "/"
     }
   ],
   "tickets": {
     "name": "Buy Tickets",
-    "url": ""
+    "url": "/"
   }
 }

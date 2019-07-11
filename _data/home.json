@@ -10,7 +10,7 @@
       "title": "Buy Tickets",
       "description": "Join us for an evening of food, live music, dancing and drinks, all while making dreams come true!",
       "url_name": "Buy Tickets",
-      "url": "steve.com"
+      "url": "/"
     },
     {
       "icon": "images/sponsor.svg",
@@ -24,7 +24,7 @@
       "title": "Donate",
       "description": "Consider a monetary to in-kind donation to impact Impact the lives of local children in the Great Toronto Area.",
       "url_name": "Donate",
-      "url": "steve.com"
+      "url": "/"
     }
   ]
 }
