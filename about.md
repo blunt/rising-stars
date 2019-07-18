@@ -7,7 +7,7 @@ location: Berkeley Church – 315 Queen St E., Toronto, ON
 location_url: Berkeley Church – 315 Queen St E., Toronto, ON
 ---
 
-![Picture of event location](/images/church.jpg "Picture of event location")
+![Picture of Rising Stars staff](/images/rising-stars-staff.jpg "Picture of Rising Stars staff")
 ## Who are the Rising Stars?
 The Rising Stars Committee is a group of young professional leaders and volunteers in the GTA dedicated to advancing the mission of Make-A-Wish through fundraising initiatives and serving as ambassadors to the community.
 

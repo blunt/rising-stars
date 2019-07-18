@@ -2,30 +2,26 @@
   "logo": "/images/night-under-the-stars.svg",
   "title": "Night Under the Stars",
   "subtitle": "in support of Make a Wish",
-  "email": "",
   "instagram": "https://www.instagram.com/makeawishca/",
   "facebook": "https://www.instagram.com/makeawishca/",
   "email": "risingstars.makeawish@gmail.com",
+  "rising_stars": "/images/rising-stars.svg",
   "navigation": [
     {
-      "name": "Event Details",
-      "url": "/details"
+      "name": "About",
+      "url": "/about"
     },
     {
       "name": "Sponsorship",
       "url": "/sponsorship"
     },
     {
-      "name": "FAQ",
-      "url": "/faq"
-    },
-    {
       "name": "Donate",
-      "url": "/"
+      "url": "https://makeawishca.donordrive.com/index.cfm?fuseaction=donate.event&eventID=705"
     }
   ],
   "tickets": {
     "name": "Buy Tickets",
-    "url": "/"
+    "url": "https://makeawishca.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=705"
   }
 }

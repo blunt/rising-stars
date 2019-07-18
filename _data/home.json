@@ -10,7 +10,7 @@
       "title": "Buy Tickets",
       "description": "Join us for an evening of food, live music, dancing and drinks, all while making dreams come true!",
       "url_name": "Buy Tickets",
-      "url": "/"
+      "url": "https://makeawishca.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=705"
     },
     {
       "icon": "images/sponsor.svg",
@@ -22,9 +22,9 @@
     {
       "icon": "images/donate.svg",
       "title": "Donate",
-      "description": "Consider a monetary to in-kind donation to impact Impact the lives of local children in the Great Toronto Area.",
+      "description": "Consider a monetary or in-kind donation to impact the lives of local children in the Canada.",
       "url_name": "Donate",
-      "url": "/"
+      "url": "https://makeawishca.donordrive.com/index.cfm?fuseaction=donate.event&eventID=705"
     }
   ]
 }
