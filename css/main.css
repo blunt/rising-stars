@@ -7205,6 +7205,7 @@ body.menu-open {
 
 .content h2, .content h4 {
   margin-bottom: 1rem;
+  line-height: 1.25;
 }
 
 .content h4 {

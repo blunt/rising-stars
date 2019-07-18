@@ -21,8 +21,8 @@
       </a>
     </h1>
     <div class="mobile-menu ml-auto flex lg:flex-row flex-col lg:static fixed z-10 inset-0 lg:p-0 md:px-8 px-4 py-8 lg:bg-transparent bg-white items-center lg:h-auto h-screen lg:shadow-none shadow-xl">
-      <nav class="lg:flex justify-center items-center lg:w-auto w-full lg:mb-0 mb-8"><a class="lg:ml-8 border-b transition-1 border-transparent hover:border-white lg:text-white text-black lg:font-normal font-black lg:inline-block block lg:text-base text-3xl lg:mb-0 mb-4 lg:font-sans font-serif" href="/details">Event Details</a><a class="lg:ml-8 border-b transition-1 border-transparent hover:border-white lg:text-white text-black lg:font-normal font-black lg:inline-block block lg:text-base text-3xl lg:mb-0 mb-4 lg:font-sans font-serif" href="/sponsorship">Sponsorship</a><a class="lg:ml-8 border-b transition-1 border-transparent hover:border-white lg:text-white text-black lg:font-normal font-black lg:inline-block block lg:text-base text-3xl lg:mb-0 mb-4 lg:font-sans font-serif" href="/faq">FAQ</a><a class="lg:ml-8 border-b transition-1 border-transparent hover:border-white lg:text-white text-black lg:font-normal font-black lg:inline-block block lg:text-base text-3xl lg:mb-0 mb-4 lg:font-sans font-serif" href="/">Donate</a></nav>
-      <a class="block lg:ml-8 lg:py-2 py-4 px-4 transition-1 bg-blue-700 hover:bg-blue-800 rounded font-black lg:text-base text-xl text-center lg:w-auto w-full" href="/" target="_blank" rel="noopener noreferrer">Buy Tickets</a>
+      <nav class="lg:flex justify-center items-center lg:w-auto w-full lg:mb-0 mb-8"><a class="lg:ml-8 border-b transition-1 border-transparent hover:border-white lg:text-white text-black lg:font-normal font-black lg:inline-block block lg:text-base text-3xl lg:mb-0 mb-4 lg:font-sans font-serif" href="/about">About</a><a class="lg:ml-8 border-b transition-1 border-transparent hover:border-white lg:text-white text-black lg:font-normal font-black lg:inline-block block lg:text-base text-3xl lg:mb-0 mb-4 lg:font-sans font-serif" href="/sponsorship">Sponsorship</a><a class="lg:ml-8 border-b transition-1 border-transparent hover:border-white lg:text-white text-black lg:font-normal font-black lg:inline-block block lg:text-base text-3xl lg:mb-0 mb-4 lg:font-sans font-serif" href="https://makeawishca.donordrive.com/index.cfm?fuseaction=donate.event&amp;eventID=705">Donate</a></nav>
+      <a class="block lg:ml-8 lg:py-2 py-4 px-4 transition-1 bg-blue-700 hover:bg-blue-800 rounded font-black lg:text-base text-xl text-center lg:w-auto w-full" href="https://makeawishca.donordrive.com/index.cfm?fuseaction=donorDrive.event&amp;eventID=705" target="_blank" rel="noopener noreferrer">Buy Tickets</a>
     </div>
     <button id="menu-button" onclick="openMenu()" class="lg:hidden block ml-auto py-2 px-4 bg-blue-700 hover:bg-blue-800 rounded relative z-20">Menu</button>
   </div>
@@ -36,7 +36,10 @@
       <div class="lg:w-2/5 w-full lg:pr-8">
         <h2 class="lg:text-5xl text-3xl leading-tight font-serif font-bold mb-6 lg:mr-16 lg:pr-8">A Night Under the Stars</h2>
         <p class="mb-8 opacity-75">Join us on November 15, 2019, at the Berkeley Church for the inaugural Night Under the Stars Gala that will bring out the glitz for a sparkly soiree in support of Make-A-Wish Canada. We will brighten the night while making wishes come true for children living with critical illnesses.</p>
-        <a class="inline-block py-2 px-8 bg-yellow-700 transition-1 hover:bg-yellow-800 rounded font-black text-black" href="/" target="_blank" rel="noopener noreferrer">Buy Tickets</a>
+        <div class="flex items-center">
+            <a class="inline-block py-2 px-8 bg-yellow-700 transition-1 hover:bg-yellow-800 rounded font-black text-black" href="https://makeawishca.donordrive.com/index.cfm?fuseaction=donorDrive.event&amp;eventID=705" target="_blank" rel="noopener noreferrer">Buy Tickets</a>
+            <img class="h-auto w-32 ml-8" src="/images/rising-stars.svg" alt="Rising Stars Logo">
+        </div>
       </div>
     </div>
   </div>
@@ -49,7 +52,7 @@
         <img class="block lg:mb-12 mb-8" src="images/tickets.svg" alt="Buy Tickets">
         <p class="text-2xl text-blue-900 font-bold font-serif mb-4">Buy Tickets</p>
         <p class="lg:mb-8 mb-6">Join us for an evening of food, live music, dancing and drinks, all while making dreams come true!</p>
-        <a class="mx-auto block font-black text-blue-700 mt-auto border-b-2 transition-1 border-transparent hover:border-blue-700" href="/">Buy Tickets</a>
+        <a class="mx-auto block font-black text-blue-700 mt-auto border-b-2 transition-1 border-transparent hover:border-blue-700" href="https://makeawishca.donordrive.com/index.cfm?fuseaction=donorDrive.event&amp;eventID=705">Buy Tickets</a>
       </div><div class="lg:w-1/3 w-full lg:px-6 px-4 flex flex-col lg:mb-0 mb-16">
         <img class="block lg:mb-12 mb-8" src="images/sponsor.svg" alt="Sponsor the Event">
         <p class="text-2xl text-blue-900 font-bold font-serif mb-4">Sponsor the Event</p>
@@ -58,8 +61,8 @@
       </div><div class="lg:w-1/3 w-full lg:px-6 px-4 flex flex-col lg:mb-0 mb-16">
         <img class="block lg:mb-12 mb-8" src="images/donate.svg" alt="Donate">
         <p class="text-2xl text-blue-900 font-bold font-serif mb-4">Donate</p>
-        <p class="lg:mb-8 mb-6">Consider a monetary to in-kind donation to impact Impact the lives of local children in the Great Toronto Area.</p>
-        <a class="mx-auto block font-black text-blue-700 mt-auto border-b-2 transition-1 border-transparent hover:border-blue-700" href="/">Donate</a>
+        <p class="lg:mb-8 mb-6">Consider a monetary or in-kind donation to impact the lives of local children in the Canada.</p>
+        <a class="mx-auto block font-black text-blue-700 mt-auto border-b-2 transition-1 border-transparent hover:border-blue-700" href="https://makeawishca.donordrive.com/index.cfm?fuseaction=donate.event&amp;eventID=705">Donate</a>
       </div></div>
 </section>
 <section class="hidden bg-gray-200 py-24">

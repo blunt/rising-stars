@@ -72,6 +72,7 @@ body.menu-open {
 
 .content h2, .content h4 {
     @apply mb-4;
+    @apply leading-tight;
 }
 
 .content h4 {
