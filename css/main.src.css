@@ -84,7 +84,19 @@ body.menu-open {
     @apply mb-4;
 }
 
-.content a {
+.content ul {
+    @apply mt-6;
+    @apply mb-6;
+    @apply list-inside;
+}
+
+.content li {
+    @apply text-base;
+    @apply mb-2;
+    @apply list-disc;
+}
+
+.content a:not(.no-underline) {
     @apply underline;
 }
 
