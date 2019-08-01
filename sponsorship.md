@@ -13,4 +13,4 @@ title: Sponsorship
 
 If you are interested in sponsoring the event, please reach out to [risingstars.makeawish@gmail.com](mailto:risingstars.makeawish@gmail.com).
 
-<p><a class="mt-6 inline-block lg:py-2 py-4 px-4 transition-1 bg-blue-700 hover:bg-blue-800 text-white no-underline rounded font-black lg:text-base text-xl text-center" href="../images/Sponsorship-package.pdf" target="_blank" rel="noreferrer">Download sponsorship package</a></p>
+<p><a class="mt-6 inline-block lg:py-2 py-4 px-4 transition-1 bg-blue-700 hover:bg-blue-800 text-white no-underline rounded font-black lg:text-base text-xl text-center" href="../Sponsorship-package.pdf" target="_blank" rel="noreferrer">Download sponsorship package</a></p>
