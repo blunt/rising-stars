@@ -8,6 +8,7 @@ module.exports = {
     "xml",
     "ico",
     "css",
+    "pdf",
     "webmanifest",
     "njk",
   ],
