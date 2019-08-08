@@ -3,7 +3,7 @@ layout: layouts/general.njk
 title: Sponsorship
 ---
 
-## Why sponsor us
+## Why Sponsor Us?
 
 - Help shape our inaugural event
 - Strategically align your company with one of Canada’s most respected and trusted charitable brands

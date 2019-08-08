@@ -2,11 +2,15 @@
   "logo": "/images/night-under-the-stars.svg",
   "title": "Night Under the Stars",
   "subtitle": "in support of Make a Wish",
-  "instagram": "https://www.instagram.com/makeawishca/",
-  "facebook": "https://www.instagram.com/makeawishca/",
+  "instagram": "https://www.instagram.com/maw_risingstars/",
+  "facebook": "https://www.facebook.com/events/523781781777139/",
   "email": "risingstars.makeawish@gmail.com",
   "rising_stars": "/images/rising-stars.svg",
   "navigation": [
+    {
+      "name": "Event Details",
+      "url": "/event-details"
+    },
     {
       "name": "About",
       "url": "/about"
@@ -14,6 +18,10 @@
     {
       "name": "Sponsorship",
       "url": "/sponsorship"
+    },
+    {
+      "name": "FAQ",
+      "url": "/faq"
     },
     {
       "name": "Donate",

@@ -2,9 +2,10 @@
 layout: layouts/general.njk
 title: A Night Under The Stars
 subtitle: Presented by Rising Stars
+doors: Doors open at 8:00pm
 event_date: November 15th, 2019
 location: Berkeley Church – 315 Queen St E., Toronto, ON
-location_url: Berkeley Church – 315 Queen St E., Toronto, ON
+location_url: https://www.google.com/maps/place/315+Queen+St+E,+Toronto,+ON+M5A+1S7/data=!4m2!3m1!1s0x89d4cb38fc0346f3:0x88b2a8f0af70ec18?sa=X&ved=2ahUKEwiU67-8jPLjAhXCHM0KHWxkDfcQ8gEwAHoECAoQAQ
 ---
 
 ![Picture of Rising Stars staff](/images/rising-stars-staff.jpg "Picture of Rising Stars staff")
