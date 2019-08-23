@@ -4,13 +4,13 @@ title: FAQ
 ---
 
 ### What does my ticket get me?
-Entry into the event, featuring a live DJ, tapas-style eats, a night of dancing and a wish wall. Raffle also on-site, with incredible prizes to be won.
+Entry into the event, featuring a live DJ and live music, tapas-style eats, libations, a fun night of dancing and a wish wall. Raffle also on-site, with incredible prizes to be won.
 ***
 ### Do I get a tax receipt with my ticket?
-Unfortunately, tickets are not tax deductible as per CRA rules, given that guests will be receiving back value (entertainment, drinks, etc.) that is proportionate to their contribution.
+Unfortunately, event tickets are not tax deductible as per CRA rules.
 ***
 ### What should I wear?
-Semi-formal attire is encouraged. Dress to impress.
+Dress to impress. It’s a sparkly soiree so have fun with your outfit! :)
 ***
 ### What time should I arrive?
 The party will start at 8pm, but please make sure you're there before 9pm to get the full experience.
