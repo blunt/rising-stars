@@ -24,8 +24,16 @@
       "url": "/faq"
     },
     {
+      "name": "Raffle",
+      "url": "/raffle"
+    },
+    {
       "name": "Donate",
       "url": "https://makeawishca.donordrive.com/index.cfm?fuseaction=donate.event&eventID=705"
+    },
+    {
+      "name": "Blog",
+      "url": "https://medium.com/@risingstars.makeawish"
     }
   ],
   "tickets": {
