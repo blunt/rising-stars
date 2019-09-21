@@ -27,6 +27,7 @@ If you are interested in sponsoring the event, please reach out to [risingstars.
 - IFDS
 - Colette Foundation
 - CSN Collision Centres
+- TD Canada Trust
 
 ***
 
@@ -36,3 +37,5 @@ If you are interested in sponsoring the event, please reach out to [risingstars.
 - Prairie Girl Baker
 - Kernel’s Popcorn
 - Bloomex
+- Give and Go
+- Dutch Boys Chocolate
