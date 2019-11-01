@@ -100,7 +100,7 @@ body.menu-open {
     @apply underline;
 }
 
-.content img {
+.content img:not(.logo) {
     @apply mb-8;
     @apply rounded;
     @apply shadow-lg;
