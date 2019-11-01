@@ -13,6 +13,10 @@ layout: layouts/base.njk
         <p class="lg:text-2xl text-xl lg:mb-12 mb-4">{{ subtitle }}</p>
         <p class="lg:text-xl lg:mb-2">{{ event_date }}<br> {{doors}}</p>
         <a class="lg:text-xl leading-tight underline hover:no-underline" href="{{ location_url }}">{{ location }}</a>
+        {% if page.fileSlug == "sponsorship" %}
+          <p class="lg:text-2xl text-xl mb-4">Superstar (Title) Sponsor:</p>
+          <a class="block w-3/4" href="https://northernfinancialgroup.ca/" target="_blank" rel="noreferrer"><img class="logo w-full h-auto" src="../images/sponsor-logos/northern-financial-group.jpg" alt="Northern Financial Group"></a>
+        {% endif %}
       </div>
       <div class="lg:w-3/5 w-full pt-3 content">
         {{ content | safe }}
