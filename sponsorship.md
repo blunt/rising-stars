@@ -85,7 +85,7 @@ If you are interested in sponsoring the event, please reach out to [risingstars.
 </div>
 
 ***
-#### and Labatt.
+#### and Labatt, GoRVing Canada.
 
 ***
 ***
