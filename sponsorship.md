@@ -96,7 +96,7 @@ If you are interested in sponsoring the event, please reach out to [risingstars.
 
 ***
 
-#### A big thank you to Imagica in Toronto for providing us with a customized photobooth for all of the fun festivities that will truly be A Night Under the Stars.
+#### A big thank you to [Imagica in Toronto](https://www.imagica.ca/) for providing us with a customized photobooth for all of the fun festivities that will truly be A Night Under the Stars.
 
 ***
 ***
